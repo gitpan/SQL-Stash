@@ -1,0 +1,8 @@
+Build.PL
+INSTALL
+lib/SQL/Stash.pm
+MANIFEST			This list of files
+META.json
+META.yml
+README
+t/SQL/Stash.t
