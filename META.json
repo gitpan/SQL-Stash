@@ -4,7 +4,7 @@
       "Sebastian Nowicki <sebnow@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "mit"
    ],
@@ -16,7 +16,11 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "DBD::Mock" : 0,
             "DBI" : 0,
+            "File::Spec" : 0,
+            "FindBin" : 0,
+            "Test::BDD::Cucumber" : 0,
             "Test::Exception" : 0,
             "Test::MockModule" : 0,
             "Test::More" : 0
@@ -38,7 +42,7 @@
    "provides" : {
       "SQL::Stash" : {
          "file" : "lib/SQL/Stash.pm",
-         "version" : "v0.1.0"
+         "version" : "v0.2.0"
       }
    },
    "release_status" : "stable",
@@ -47,5 +51,5 @@
          "http://opensource.org/licenses/mit-license.php"
       ]
    },
-   "version" : "v0.1.0"
+   "version" : "v0.2.0"
 }

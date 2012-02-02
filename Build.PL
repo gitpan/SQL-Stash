@@ -11,7 +11,11 @@ my $builder = Module::Build->new(
 		'Module::Build' => '',
 	},
 	build_requires => {
+		'DBD::Mock' => '',
 		'DBI' => '',
+		'File::Spec' => '',
+		'FindBin' => '',
+		'Test::BDD::Cucumber' => '',
 		'Test::Exception' => '',
 		'Test::MockModule' => '',
 		'Test::More' => '',

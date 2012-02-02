@@ -1,8 +1,13 @@
 Build.PL
+features/override.feature
+features/sprintf.feature
+features/stash.feature
+features/step_definitions/basic_steps.pl
 INSTALL
 lib/SQL/Stash.pm
 MANIFEST			This list of files
-META.json
-META.yml
 README
 t/SQL/Stash.t
+t/SQL/Stash/features.t
+META.yml
+META.json
